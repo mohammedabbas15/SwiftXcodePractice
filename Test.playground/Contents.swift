@@ -4,6 +4,7 @@ import Foundation
 class ViewController:UIViewController{
     // create a new screen with 2 textboxes
     //in a VC these would be outlets connecting to textfield
+    //Some comment
     @IBOutlet weak var fromAcctTextField:UITextField!
     @IBOutlet weak var toAcctTextFIeld:UITextField!
     
