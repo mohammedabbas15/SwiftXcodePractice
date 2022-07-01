@@ -7,6 +7,7 @@ class ViewController:UIViewController{
     //Some comment
     @IBOutlet weak var fromAcctTextField:UITextField!
     @IBOutlet weak var toAcctTextFIeld:UITextField!
+    weak var name: String
     
     var transferAmt:String {
         return fromAcctTextField.text!
